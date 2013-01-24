@@ -1,0 +1,12 @@
+{
+    "id": "com.openmobl.contact.carddav",
+    "version": "1.0.0",
+    "vendor": "OpenMobl",
+    "type": "web",
+    "main": "index.html",
+    "title": "CardDAV",
+    "icon": "icon.png",
+    "visible": false
+}
+
+

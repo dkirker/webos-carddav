@@ -1,0 +1,25 @@
+{
+    "templateId": "com.openmobl.contact.carddav.account",
+    "loc_name": "CardDAV",
+    "readPermissions": ["com.openmobl.contact.carddav.service"],
+    "writePermissions": ["com.openmobl.contact.carddav.service"],
+    "validator": "palm://com.openmobl.contact.carddav.service/checkCredentials",
+    "onCapabiltiesChanged" : "palm://com.openmobl.contact.carddav.service/onCapabiltiesChanged",		
+	"onCredentialsChanged" : "palm://com.openmobl.contact.carddav.service/onCredentialsChanged",	
+    "loc_usernameLabel": "Resource",
+    "loc_explainLabel": "username|URL",
+    "icon": {"loc_32x32": "images/carddav32.png"},	
+    "capabilityProviders": [{
+        "capability": "CONTACTS",
+        "id"        : "com.openmobl.contact.carddav.account",
+		"onCreate"  : "palm://com.openmobl.contact.carddav.service/onCreate",  
+		"onEnabled" : "palm://com.openmobl.contact.carddav.service/onEnabled", 
+		"onDelete"  : "palm://com.openmobl.contact.carddav.service/onDelete",
+		"sync"      : "palm://com.openmobl.contact.carddav.service/sync", 
+        "loc_name"  : "CardDAV",
+        "dbkinds": {  
+                "contact": "com.openmobl.contact.carddav:1"
+        }
+    }]
+}
+

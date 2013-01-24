@@ -1,0 +1,14 @@
+{
+    "id": "com.openmobl.contact.carddav:1",
+    "owner": "com.openmobl.contact.carddav.service",
+    "sync": true,
+    "indexes": [ { 
+       "name": "accountId", 
+       "props": [{ "name": "accountId"}]}, { 
+       "name": "remoteId", 
+       "props": [{ "name": "id"}]}, { 
+       "name": "updated", 
+       "props": [{ "name": "updated"}]}
+	   ], 
+    "extends": ["com.palm.contact:1"]
+}

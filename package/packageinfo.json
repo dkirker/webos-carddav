@@ -1,0 +1,11 @@
+{
+  "id": "com.openmobl.contact.carddav",
+  "package_format_version": 2,
+  "loc_name": "CardDAV",
+  "version": "1.0.0",
+  "vendor": "OpenMobl Systems",
+  "vendorurl": "www.openmobl.com",
+  "app": "com.openmobl.contact.carddav",
+  "services": ["com.openmobl.contact.carddav.service"],
+  "accounts": ["com.openmobl.contact.carddav.account"]
+}
